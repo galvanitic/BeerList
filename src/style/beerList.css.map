@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "beerList.scss"
+    ],
+    "names": [],
+    "file": "beerList.css"
+}
