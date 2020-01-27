@@ -1,3 +1,25 @@
+$black: #59594A;
+$blue: #7286A0;
+$darkGreen: #A3BFA8;
+$green: #CDE7B0;
+$red: #BE6E46;
+@import url('https://fonts.googleapis.com/css?family=Unica+One&display=swap');
+
+button.list {
+    margin: 5% 0;
+    padding: 1% 2%;
+    background-color: $green;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .5s;
+}
+button.list:hover {
+    background-color: $darkGreen;
+    cursor: pointer;
+}
 li {
     margin: 10vh 0;
 }

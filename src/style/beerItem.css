@@ -1,3 +1,8 @@
+h1 {
+  font-family: 'Unica One';
+  font-weight: bold;
+}
+
 .beerItem {
   background-color: #7286A0;
   width: 90vw;
@@ -44,6 +49,10 @@
   border-bottom-right-radius: 15%;
 }
 
+.beerItem .beerInfo .beerDetails .liked {
+  background-color: #CDE7B0;
+}
+
 .beerItem .beerInfo .beerDetails p {
   width: 80%;
   color: white;
@@ -56,5 +65,15 @@
   background-color: #BE6E46;
   border: none;
   border-bottom-right-radius: 15px;
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.beerItem .beerInfo .beerDetails button:hover {
+  cursor: pointer;
+  background-color: #59594A;
 }
 /*# sourceMappingURL=beerItem.css.map */

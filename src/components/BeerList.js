@@ -1,5 +1,6 @@
 import React from 'react';
 import BeerItem from './BeerItem';
+
 import '../style/beerList.css'
 
 class BeerList extends React.Component {
@@ -14,7 +15,7 @@ class BeerList extends React.Component {
     render() {
         return(
             <div>
-                <button onClick={this.fetchBeers}> List Some Beers</button>
+                <button className='list' onClick={this.fetchBeers}> List Some Beers</button>
                 <ul>
                     {console.log(this.state.beers)}
                     {this.state.beers.map((beer) => <BeerItem beerInfo={beer} key={beer.id}/>)}

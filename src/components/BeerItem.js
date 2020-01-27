@@ -2,6 +2,14 @@ import React from 'react';
 import '../style/beerItem.css';
 
 class BeerItem extends React.Component {
+    state = {
+        liked: true,
+        likedClass: ''
+    }
+
+    like = () => {
+        this.setState({liked: !this.state.liked, likedClass: this.state.liked ? 'liked' : ''});
+    }
     render(){
         return(
             <li className='beerItem'>
@@ -12,7 +20,7 @@ class BeerItem extends React.Component {
                     </div>
                     <div className='beerDetails'>
                         <p>{this.props.beerInfo.description}</p>
-                        <button>Like</button>
+                        <button className={this.state.likedClass} onClick={this.like}>Like</button>
                     </div>
                 </div>
             </li>

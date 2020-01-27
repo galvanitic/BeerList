@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Unica+One&display=swap");
+button.list {
+  margin: 5% 0;
+  padding: 1% 2%;
+  background-color: #CDE7B0;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Unica One', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+button.list:hover {
+  background-color: #A3BFA8;
+  cursor: pointer;
+}
+
 li {
   margin: 10vh 0;
 }

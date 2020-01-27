@@ -3,7 +3,13 @@ $blue: #7286A0;
 $darkGreen: #A3BFA8;
 $green: #CDE7B0;
 $red: #BE6E46;
+$darkRed: rgb(158, 92, 60);
 
+h1 {
+    font-family: 'Unica One';
+    font-weight: bold;
+
+}
 .beerItem {
     background-color: $blue;
     width: 90vw;
@@ -27,6 +33,9 @@ $red: #BE6E46;
             }
         }
         .beerDetails {
+            .liked {
+                background-color: $green;
+            }
             width: 80%;
             display: flex;
             flex-direction: row;
@@ -43,6 +52,14 @@ $red: #BE6E46;
                 background-color: $red;
                 border: none;
                 border-bottom-right-radius: 15px;
+                font-family: 'Unica One', cursive;
+                font-weight: bold;
+                font-size: 25px;
+                transition: .5s;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: $black;
             }
         }
     }
